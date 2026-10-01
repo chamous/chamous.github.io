@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chamous.github.io/sitemap.xml
+# Note: crawlers only read robots.txt from the domain root
+# (https://chamous.github.io/robots.txt), not from a project subpath.
+# This file is served at /github_page/robots.txt for reference only.
+
+Sitemap: https://chamous.github.io/github_page/sitemap.xml

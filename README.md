@@ -35,10 +35,13 @@ GitHub Pages on every push to `main`.
 3. Set **Source** to **GitHub Actions**.
 4. Push again, or run the `Deploy to GitHub Pages` workflow manually.
 
-The site goes live at `https://<user>.github.io/`.
+The site goes live at `https://<user>.github.io/<repo>/`.
 
-Afterwards, update the `Sitemap` line in `robots.txt` and `<loc>` in
-`sitemap.xml` to your final domain if it differs from the default.
+For this repo that is **https://chamous.github.io/github_page/**.
+
+If you want the clean root URL `https://chamous.github.io/` instead, rename the
+repository to exactly `chamous.github.io` — GitHub then serves it at the domain
+root with no other changes.
 
 ## Update content
 
