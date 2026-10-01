@@ -35,13 +35,11 @@ GitHub Pages on every push to `main`.
 3. Set **Source** to **GitHub Actions**.
 4. Push again, or run the `Deploy to GitHub Pages` workflow manually.
 
-The site goes live at `https://<user>.github.io/<repo>/`.
+The site goes live at **https://chamous.github.io/**.
 
-For this repo that is **https://chamous.github.io/github_page/**.
-
-If you want the clean root URL `https://chamous.github.io/` instead, rename the
-repository to exactly `chamous.github.io` — GitHub then serves it at the domain
-root with no other changes.
+This works because the repository is named `chamous.github.io`, which is the
+name GitHub reserves for serving a user site from the domain root. Renaming the
+repo to anything else would move the site to a `/project-name/` subpath.
 
 ## Update content
 
