@@ -277,6 +277,12 @@ p { margin: 0 0 1rem; }
   flex: none; font-family: "JetBrains Mono", monospace; font-size: .68rem; color: var(--accent);
   background: var(--accent-soft); border: 1px solid var(--border); border-radius: 7px; padding: 4px 9px; white-space: nowrap;
 }
+.tag-conf {
+  flex: none; font-family: "JetBrains Mono", monospace; font-size: .62rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase; color: #e0b155;
+  background: rgba(224, 177, 85, .12); border: 1px solid rgba(224, 177, 85, .38); border-radius: 7px; padding: 4px 9px; white-space: nowrap;
+}
+.project-flags { display: flex; flex-wrap: wrap; gap: 7px; justify-content: flex-end; }
 .project > p { color: var(--muted); font-size: .93rem; }
 .bullets { list-style: none; margin: 4px 0 18px; padding: 0; }
 .bullets li { position: relative; padding-left: 20px; font-size: .88rem; color: var(--muted); margin-bottom: 6px; }
@@ -386,6 +392,7 @@ p { margin: 0 0 1rem; }
   .timeline { padding-left: 24px; }
   .tl-marker { left: -24px; }
   .project-head { flex-direction: column; gap: 9px; }
+  .project-flags { justify-content: flex-start; }
 }
 
 @media (max-width: 420px) {
