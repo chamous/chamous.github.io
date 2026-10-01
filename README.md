@@ -1,6 +1,6 @@
 # Portfolio — Chames Haj Ayed
 
-Personal portfolio site for **Chames Haj Ayed**, Robotics &amp; Computer Vision Coordinator at Hutchinson.
+Personal portfolio site for **Chames Haj Ayed**, Robotics &amp; Industrial Vision Lead at Hutchinson.
 
 Static HTML / CSS / vanilla JS. No build step, no dependencies, no trackers.
 
@@ -8,6 +8,7 @@ Static HTML / CSS / vanilla JS. No build step, no dependencies, no trackers.
 
 ```
 index.html              # single-page site
+assets/resume.pdf       # downloadable CV
 assets/css/style.css    # all styling (dark + light themes)
 assets/js/main.js       # nav, scroll reveal, canvas background, contact form
 assets/img/             # profile photo + favicon
@@ -45,6 +46,9 @@ All copy lives in `index.html`. Experience, projects, certifications and awards
 are plain HTML blocks, so adding an entry means copying an existing card or
 timeline item. The contact form opens the visitor's mail client — it has no
 backend and needs no configuration.
+
+The CV is served from `assets/resume.pdf`. Replace that file to update the
+download; keep the filename so existing links stay valid.
 
 If you later add a form service (Formspree, Web3Forms), change the submit
 handler at the bottom of `assets/js/main.js`.
